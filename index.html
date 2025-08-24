@@ -1,0 +1,1614 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lead CRM</title>
+    <!-- Links -->
+    <link rel="stylesheet" href="./assets/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./assets/css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="overlay"></div>
+      <nav class="navbar navbar-expand-lg py-lg-3 py-1">
+        <div class="container-fluid px-2 px-lg-4">
+          <a class="navbar-brand" href="!#">
+            <img src="./assets/images/logo.png" alt="Logo" />
+          </a>
+          <div class="d-flex gap-3">
+            <a
+              href="#"
+              class="button button-outline shadow-none d-flex d-lg-none"
+            >
+              <svg
+                width="25"
+                height="24"
+                viewBox="0 0 25 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M21.5915 18.4292C21.5818 18.7743 21.5028 19.1139 21.3593 19.4279C21.2159 19.7418 21.0108 20.0238 20.7562 20.257C20.5017 20.4901 20.2029 20.6698 19.8776 20.7853C19.5523 20.9008 19.2071 20.9497 18.8625 20.9292C16.7095 20.9412 14.5555 20.9292 12.4025 20.9292C12.2699 20.9292 12.1427 20.8765 12.0489 20.7828C11.9551 20.689 11.9025 20.5618 11.9025 20.4292C11.9025 20.2966 11.9551 20.1694 12.0489 20.0757C12.1427 19.9819 12.2699 19.9292 12.4025 19.9292C14.6025 19.9292 16.8025 19.9612 19.0025 19.9292C20.1095 19.9132 20.5915 19.0812 20.5915 18.0912V5.62722C20.599 5.31251 20.5103 5.00299 20.3371 4.7401C20.164 4.47721 19.9146 4.27349 19.6225 4.15622C19.2773 4.06151 18.918 4.02934 18.5615 4.06122H12.4025C12.2699 4.06122 12.1427 4.00854 12.0489 3.91477C11.9551 3.821 11.9025 3.69383 11.9025 3.56122C11.9025 3.42861 11.9551 3.30143 12.0489 3.20767C12.1427 3.1139 12.2699 3.06122 12.4025 3.06122C14.6275 3.06122 16.8675 2.97622 19.0905 3.06122C19.4308 3.06969 19.766 3.14579 20.0766 3.28509C20.3872 3.42439 20.667 3.62411 20.8997 3.8726C21.1324 4.12109 21.3133 4.4134 21.4319 4.73249C21.5505 5.05158 21.6044 5.39108 21.5905 5.73122L21.5915 18.4292Z"
+                  fill="#2D96BC"
+                  stroke="#2D96BC"
+                />
+                <path
+                  d="M16.4408 12.3523C16.5251 12.2698 16.5745 12.1581 16.5788 12.0403L16.5848 11.9983L16.5788 11.9573C16.5747 11.8391 16.5253 11.727 16.4408 11.6443L12.7718 7.9763C12.6775 7.88522 12.5512 7.83482 12.4201 7.83596C12.289 7.8371 12.1636 7.88968 12.0709 7.98239C11.9782 8.07509 11.9256 8.2005 11.9245 8.3316C11.9233 8.4627 11.9737 8.589 12.0648 8.6833L14.8808 11.4983H4.13879C4.00619 11.4983 3.87901 11.551 3.78524 11.6447C3.69147 11.7385 3.63879 11.8657 3.63879 11.9983C3.63879 12.1309 3.69147 12.2581 3.78524 12.3519C3.87901 12.4456 4.00619 12.4983 4.13879 12.4983H14.8808L12.0648 15.3133C11.9737 15.4076 11.9233 15.5339 11.9245 15.665C11.9256 15.7961 11.9782 15.9215 12.0709 16.0142C12.1636 16.1069 12.289 16.1595 12.4201 16.1606C12.5512 16.1618 12.6775 16.1114 12.7718 16.0203L16.4408 12.3523Z"
+                  fill="#2D96BC"
+                  stroke="#2D96BC"
+                />
+              </svg>
+              Login
+            </a>
+            <button
+              class="navbar-toggler hd d-flex d-lg-none"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarScroll"
+              aria-controls="navbarScroll"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <svg
+                width="22"
+                height="20"
+                viewBox="0 0 22 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M21 1.25H6M21 10H1M21 18.75H11"
+                  stroke="#2d96bc"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <div class="nav-mob-head px-3">
+              <div class="d-flex justify-content-between align-items-center">
+                <a class="navbar-brand" href="!#">
+                  <img src="./assets/images/logo.png" alt="Logo" />
+                </a>
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarScroll"
+                  aria-controls="navbarScroll"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="11"
+                    height="11"
+                    viewBox="0 0 11 11"
+                    fill="none"
+                  >
+                    <path
+                      d="M1 10L5.5 5.5L10 10M10 1L5.49914 5.5L1 1"
+                      stroke="#2d96bc"
+                      stroke-width="1.2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <ul
+              class="navbar-nav mx-auto my-2 my-lg-0"
+              style="--bs-scroll-height: 100px"
+            >
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Product
+                  <svg
+                    width="18"
+                    height="12"
+                    viewBox="0 0 18 12"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M8.52452 11.683L0 3.1586L2.84149 0.317047L8.52452 6.00005L14.2074 0.317047L17.0489 3.1586L8.52452 11.683Z"
+                      fill="black"
+                    />
+                  </svg>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Lead Finder</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Teammate</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">CRM Data Sync</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">CRM Data Overlay</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Resources
+                  <svg
+                    width="18"
+                    height="12"
+                    viewBox="0 0 18 12"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M8.52452 11.683L0 3.1586L2.84149 0.317047L8.52452 6.00005L14.2074 0.317047L17.0489 3.1586L8.52452 11.683Z"
+                      fill="black"
+                    />
+                  </svg>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Blogs</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">API Documentation</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">LeadCRM Alternatives</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      LinkedIn CRM Integration Guide
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Company
+                  <svg
+                    width="18"
+                    height="12"
+                    viewBox="0 0 18 12"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M8.52452 11.683L0 3.1586L2.84149 0.317047L8.52452 6.00005L14.2074 0.317047L17.0489 3.1586L8.52452 11.683Z"
+                      fill="black"
+                    />
+                  </svg>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">About Us</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Contact Us</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <div class="d-flex gap-3 px-3 px-lg-0">
+              <a href="#!" class="button shadow-none">Get Your Free Account</a>
+              <a
+                href="#"
+                class="button button-outline shadow-none d-none d-lg-block"
+              >
+                <svg
+                  width="25"
+                  height="24"
+                  viewBox="0 0 25 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M21.5915 18.4292C21.5818 18.7743 21.5028 19.1139 21.3593 19.4279C21.2159 19.7418 21.0108 20.0238 20.7562 20.257C20.5017 20.4901 20.2029 20.6698 19.8776 20.7853C19.5523 20.9008 19.2071 20.9497 18.8625 20.9292C16.7095 20.9412 14.5555 20.9292 12.4025 20.9292C12.2699 20.9292 12.1427 20.8765 12.0489 20.7828C11.9551 20.689 11.9025 20.5618 11.9025 20.4292C11.9025 20.2966 11.9551 20.1694 12.0489 20.0757C12.1427 19.9819 12.2699 19.9292 12.4025 19.9292C14.6025 19.9292 16.8025 19.9612 19.0025 19.9292C20.1095 19.9132 20.5915 19.0812 20.5915 18.0912V5.62722C20.599 5.31251 20.5103 5.00299 20.3371 4.7401C20.164 4.47721 19.9146 4.27349 19.6225 4.15622C19.2773 4.06151 18.918 4.02934 18.5615 4.06122H12.4025C12.2699 4.06122 12.1427 4.00854 12.0489 3.91477C11.9551 3.821 11.9025 3.69383 11.9025 3.56122C11.9025 3.42861 11.9551 3.30143 12.0489 3.20767C12.1427 3.1139 12.2699 3.06122 12.4025 3.06122C14.6275 3.06122 16.8675 2.97622 19.0905 3.06122C19.4308 3.06969 19.766 3.14579 20.0766 3.28509C20.3872 3.42439 20.667 3.62411 20.8997 3.8726C21.1324 4.12109 21.3133 4.4134 21.4319 4.73249C21.5505 5.05158 21.6044 5.39108 21.5905 5.73122L21.5915 18.4292Z"
+                    fill="#2D96BC"
+                    stroke="#2D96BC"
+                  />
+                  <path
+                    d="M16.4408 12.3523C16.5251 12.2698 16.5745 12.1581 16.5788 12.0403L16.5848 11.9983L16.5788 11.9573C16.5747 11.8391 16.5253 11.727 16.4408 11.6443L12.7718 7.9763C12.6775 7.88522 12.5512 7.83482 12.4201 7.83596C12.289 7.8371 12.1636 7.88968 12.0709 7.98239C11.9782 8.07509 11.9256 8.2005 11.9245 8.3316C11.9233 8.4627 11.9737 8.589 12.0648 8.6833L14.8808 11.4983H4.13879C4.00619 11.4983 3.87901 11.551 3.78524 11.6447C3.69147 11.7385 3.63879 11.8657 3.63879 11.9983C3.63879 12.1309 3.69147 12.2581 3.78524 12.3519C3.87901 12.4456 4.00619 12.4983 4.13879 12.4983H14.8808L12.0648 15.3133C11.9737 15.4076 11.9233 15.5339 11.9245 15.665C11.9256 15.7961 11.9782 15.9215 12.0709 16.0142C12.1636 16.1069 12.289 16.1595 12.4201 16.1606C12.5512 16.1618 12.6775 16.1114 12.7718 16.0203L16.4408 12.3523Z"
+                    fill="#2D96BC"
+                    stroke="#2D96BC"
+                  />
+                </svg>
+                Login
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container">
+        <div class="text">
+          <div class="badge">
+            <img src="./assets/images/icons/plan.svg" alt="LeadCRM" />
+            <span>Thousands of Professional using LeadCRM</span>
+          </div>
+          <h1 class="text-dark">
+            LinkedIn CRM Integration <br />
+            Capture, Sync and Enrich in
+            <span class="text-primary">Both Ways</span>
+          </h1>
+          <p>
+            Automatically sync LinkedIn prospects to your CRM and overlay
+            existing CRM contacts on <br />
+            LinkedIn profiles. Complete bi-directional integration with HubSpot,
+            Salesforce, and Pipedrive.
+          </p>
+          <div class="works-with">
+            <h4>Works with</h4>
+            <div class="imgs">
+              <div class="icon">
+                <img
+                  src="./assets/images/hero/works-with/1.png"
+                  alt="HubSpot"
+                />
+              </div>
+              <div class="icon">
+                <img
+                  src="./assets/images/hero/works-with/2.png"
+                  alt="Pipedrive"
+                />
+              </div>
+              <div class="icon bg-light">
+                <img
+                  src="./assets/images/hero/works-with/3.png"
+                  alt="Salesforce"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="star-feed">
+            <img src="./assets/images/hero/star-feed.png" alt="Feedback" />
+          </div>
+          <div class="buttons">
+            <a href="#!" class="button">
+              <div class="content">
+                <div class="text-in text-light">
+                  <span>Available in</span>
+                  <h5>Chrome Web Store</h5>
+                </div>
+                <div class="icon-ch bg-light">
+                  <img src="./assets/images/icons/chrome.svg" alt="" />
+                </div>
+              </div>
+            </a>
+            <a href="#!" class="button shadow-none">Get a Free Trial Now!</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Infinite Carousel -->
+    <section class="section infinite-carousel">
+      <div class="container-fluid">
+        <div class="owl-carousel owl-theme infinite-carousel-slider">
+          <div class="item">
+            <img
+              src="./assets/images/icons/1.png"
+              alt="Access to 700M+ Contacts"
+            />
+            <h4>Access to <span>700M+ Contacts</span></h4>
+          </div>
+          <div class="item itm-img">
+            <img
+              src="./assets/images/icons/2.png"
+              alt="One click push to CRM"
+            />
+            <h4><span>One click push</span> to CRM</h4>
+          </div>
+          <div class="item">
+            <img src="./assets/images/icons/3.png" alt="Custom Field Mapping" />
+            <h4><span>Custom Field</span> Mapping</h4>
+          </div>
+          <div class="item">
+            <img
+              src="./assets/images/icons/4.png"
+              alt="Advanced Waterfall Enrichment"
+            />
+            <h4>Advanced <span>Waterfall Enrichment</span></h4>
+          </div>
+          <div class="item">
+            <img
+              src="./assets/images/icons/5.webp"
+              alt="Instant Email Finder"
+            />
+            <h4>Instant <span>Email Finder</span></h4>
+          </div>
+          <div class="item">
+            <img
+              src="./assets/images/icons/6.webp"
+              alt="Advanced AI Productivity"
+            />
+            <h4>Advanced <span>AI Productivity</span></h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Linkedin challengers -->
+    <section class="section linkedin-challengers">
+      <div class="container">
+        <h4 class="heading mb-5 text-center">
+          Every LinkedIn Prospector faces these daily challenges
+        </h4>
+        <div class="card-layout mb-5">
+          <div class="card cd-1">
+            <div class="image">
+              <img
+                src="./assets/images/linkedin-challenges/without.png"
+                alt="Without LeadCRM"
+              />
+            </div>
+            <div class="text">
+              <h4>Without LeadCRM</h4>
+              <div class="item">
+                <div class="icon">
+                  <img src="./assets/images/icons/close.svg" alt="Close" />
+                </div>
+                <div class="content">
+                  <h5>
+                    Manual Data Entry
+                    <span>3+ Hours wasted daily</span>
+                  </h5>
+                  <p>
+                    Copying LinkedIn contacts to CRM manually plus losing
+                    conversation history
+                  </p>
+                </div>
+              </div>
+              <div class="item">
+                <div class="icon">
+                  <img src="./assets/images/icons/close.svg" alt="Close" />
+                </div>
+                <div class="content">
+                  <h5>
+                    Incomplete Data
+                    <span>60% Data Incomplete</span>
+                  </h5>
+                  <p>
+                    LinkedIn profiles missing Email and Phones from 700M+
+                    Database
+                  </p>
+                </div>
+              </div>
+              <div class="item">
+                <div class="icon">
+                  <img src="./assets/images/icons/close.svg" alt="Close" />
+                </div>
+                <div class="content">
+                  <h5>
+                    No CRM Visibility
+                    <span>Zero context available</span>
+                  </h5>
+                  <p>
+                    Can’t see existing CRM contacts when browsing LinkedIn
+                    profiles
+                  </p>
+                </div>
+              </div>
+              <div class="item">
+                <div class="icon">
+                  <img src="./assets/images/icons/close.svg" alt="Close" />
+                </div>
+                <div class="content">
+                  <h5>
+                    Limited Productivity
+                    <span>No smart assistance</span>
+                  </h5>
+                  <p>
+                    Writing messages manually plus no AI assistant for reply,
+                    Invite or comments.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="vs-line">
+            <div class="line"></div>
+            <div class="vs">vs</div>
+            <div class="line"></div>
+          </div>
+          <div class="card cd-2 bg-light">
+            <div class="image">
+              <img
+                src="./assets/images/linkedin-challenges/with.png"
+                alt="Without LeadCRM"
+              />
+            </div>
+            <div class="text">
+              <h4>
+                With LeadCRM
+                <div class="bdg-im d-flex gap-2">
+                  <div>
+                    <img
+                      src="./assets/images/icons/lead-logo.png"
+                      alt="LeadCRM"
+                    />
+                  </div>
+                  <span>4+ Hours/day Saved</span>
+                </div>
+              </h4>
+              <div class="item">
+                <div class="icon">
+                  <img
+                    src="./assets/images/icons/bi.png"
+                    alt="Complete Bi-Directional Sync"
+                  />
+                </div>
+                <div class="content">
+                  <h5>Complete Bi-Directional Sync</h5>
+                  <p>
+                    Automatically sync contacts, messages, and notes between
+                    LinkedIn and your CRM in real time.
+                  </p>
+                </div>
+              </div>
+              <div class="item">
+                <div class="icon">
+                  <img
+                    src="./assets/images/icons/1.png"
+                    alt="Contacts + Enrichment"
+                  />
+                </div>
+                <div class="content">
+                  <h5>700M+ Contacts + Enrichment</h5>
+                  <p>
+                    Get verified emails and phone numbers from a vast global
+                    database.
+                  </p>
+                </div>
+              </div>
+              <div class="item">
+                <div class="icon">
+                  <img
+                    src="./assets/images/icons/crm.png"
+                    alt="CRM Overlay on LinkedIn"
+                  />
+                </div>
+                <div class="content">
+                  <h5>CRM Overlay on LinkedIn</h5>
+                  <p>
+                    See full CRM insights directly on LinkedIn profiles without
+                    switching tabs.
+                  </p>
+                </div>
+              </div>
+              <div class="item">
+                <div class="icon">
+                  <img src="./assets/images/icons/6.webp" alt="AI Response" />
+                </div>
+                <div class="content">
+                  <h5>AI Response + Templates + Bulk Exports</h5>
+                  <p>
+                    Save time with AI-crafted replies, pre-built templates, and
+                    one-click data exports.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="button-text text-center d-flex justify-content-center mt-5">
+          <a href="#!" class="button">Start Using LeadCRM Now</a>
+          <span class="txt">
+            Save 40+ hours <br />
+            every Month
+          </span>
+          <span class="arrow">
+            <img src="./assets/images/icons/arrow.svg" alt="Arrow" />
+          </span>
+        </div>
+      </div>
+    </section>
+
+    <!-- How it works -->
+    <section class="section how-works">
+      <div class="container-fluid">
+        <h4 class="heading">How it works</h4>
+        <p class="sub-heading">
+          From setup to success in <b>4 simple steps</b>
+        </p>
+        <div class="row hw-rw g-md-3">
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card">
+              <div class="text">
+                <h2>1</h2>
+                <h4>Install LeadCRM Extension</h4>
+                <p class="text-center">
+                  Add LeadCRM to Chrome and connect your CRM in 2 minutes—secure
+                  and seamless.
+                </p>
+              </div>
+              <img
+                src="./assets/images/how-works/1.png"
+                alt="Install LeadCRM Extension"
+              />
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card cd-2">
+              <div class="text">
+                <h2>2</h2>
+                <h4>Browse LinkedIn</h4>
+                <p class="text-center">
+                  Use LinkedIn normally, our extension auto-captures data and
+                  reveals CRM contacts instantly.
+                </p>
+              </div>
+              <img
+                src="./assets/images/how-works/2.png"
+                alt="Install LeadCRM Extension"
+              />
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card">
+              <div class="text">
+                <h2>3</h2>
+                <h4>Get Enriched Data</h4>
+                <p class="text-center">
+                  Enrich profiles with verified emails, phones, and company data
+                  with 95%+ accuracy guaranteed.
+                </p>
+              </div>
+              <img
+                src="./assets/images/how-works/3.png"
+                alt="Install LeadCRM Extension"
+              />
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card cd-4">
+              <div class="text">
+                <h2>4</h2>
+                <h4>Sync to CRM Instantly</h4>
+                <p class="text-center">
+                  Prospect data syncs to your CRM instantly with history,
+                  tracking, and AI powered insights for better follow ups.
+                </p>
+              </div>
+              <img
+                src="./assets/images/how-works/4.png"
+                alt="Install LeadCRM Extension"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mt-5">
+          <a href="#!" class="button gap-2">
+            Try LeadCRM Now
+            <svg
+              width="20"
+              height="18"
+              viewBox="0 0 20 18"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M11 2L18 9M18 9L11 16M18 9H2"
+                stroke="#1A1A1A"
+                stroke-width="2.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+    <div class="ball-se">
+      <div class="ball">
+        <img src="./assets/images/icons/ball.png" alt="Ball" />
+      </div>
+    </div>
+    <!-- Testimonials -->
+    <section class="section testimonials">
+      <div class="container-fluid">
+        <h2 class="heading mb-5">What people are saying about LeadCRM</h2>
+        <div class="owl-carousel owl-theme testimonials-carousel">
+          <div class="item">
+            <div class="text">
+              <p>
+                “Reliable Data Sync I’ve only had to refresh the extension a
+                couple of times. The multi-contact enrichment is still a huge
+                plus, and support is very responsive.“
+              </p>
+              <div class="review">
+                <div class="icon">
+                  <img src="./assets/images/icons/play-store.svg" alt="User" />
+                </div>
+                <div class="star d-flex gap-1">
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M9.00054 1.50109L6.76054 6.24109L1.76054 7.00109C0.920537 7.08109 0.500537 8.34109 1.16054 9.00109L4.76054 12.6611L3.92054 17.9211C3.76054 18.8411 4.76054 19.5011 5.50054 19.0811L10.0005 16.7411L14.5005 19.0811C15.3405 19.5011 16.2605 18.8411 16.0805 17.9211L15.2605 12.6611L18.8405 9.00109C19.5005 8.34109 19.0805 7.16109 18.2605 7.00109L13.2605 6.24109L11.0005 1.50109C10.5805 0.661094 9.42054 0.661094 9.00054 1.50109Z"
+                      fill="#090F4E"
+                    />
+                  </svg>
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M9.00054 1.50109L6.76054 6.24109L1.76054 7.00109C0.920537 7.08109 0.500537 8.34109 1.16054 9.00109L4.76054 12.6611L3.92054 17.9211C3.76054 18.8411 4.76054 19.5011 5.50054 19.0811L10.0005 16.7411L14.5005 19.0811C15.3405 19.5011 16.2605 18.8411 16.0805 17.9211L15.2605 12.6611L18.8405 9.00109C19.5005 8.34109 19.0805 7.16109 18.2605 7.00109L13.2605 6.24109L11.0005 1.50109C10.5805 0.661094 9.42054 0.661094 9.00054 1.50109Z"
+                      fill="#090F4E"
+                    />
+                  </svg>
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M9.00054 1.50109L6.76054 6.24109L1.76054 7.00109C0.920537 7.08109 0.500537 8.34109 1.16054 9.00109L4.76054 12.6611L3.92054 17.9211C3.76054 18.8411 4.76054 19.5011 5.50054 19.0811L10.0005 16.7411L14.5005 19.0811C15.3405 19.5011 16.2605 18.8411 16.0805 17.9211L15.2605 12.6611L18.8405 9.00109C19.5005 8.34109 19.0805 7.16109 18.2605 7.00109L13.2605 6.24109L11.0005 1.50109C10.5805 0.661094 9.42054 0.661094 9.00054 1.50109Z"
+                      fill="#090F4E"
+                    />
+                  </svg>
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M9.00054 1.50109L6.76054 6.24109L1.76054 7.00109C0.920537 7.08109 0.500537 8.34109 1.16054 9.00109L4.76054 12.6611L3.92054 17.9211C3.76054 18.8411 4.76054 19.5011 5.50054 19.0811L10.0005 16.7411L14.5005 19.0811C15.3405 19.5011 16.2605 18.8411 16.0805 17.9211L15.2605 12.6611L18.8405 9.00109C19.5005 8.34109 19.0805 7.16109 18.2605 7.00109L13.2605 6.24109L11.0005 1.50109C10.5805 0.661094 9.42054 0.661094 9.00054 1.50109Z"
+                      fill="#090F4E"
+                    />
+                  </svg>
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M9.00054 1.50109L6.76054 6.24109L1.76054 7.00109C0.920537 7.08109 0.500537 8.34109 1.16054 9.00109L4.76054 12.6611L3.92054 17.9211C3.76054 18.8411 4.76054 19.5011 5.50054 19.0811L10.0005 16.7411L14.5005 19.0811C15.3405 19.5011 16.2605 18.8411 16.0805 17.9211L15.2605 12.6611L18.8405 9.00109C19.5005 8.34109 19.0805 7.16109 18.2605 7.00109L13.2605 6.24109L11.0005 1.50109C10.5805 0.661094 9.42054 0.661094 9.00054 1.50109Z"
+                      fill="#090F4E"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="user">
+              <div class="img">
+                <img src="./assets/images/testimonials/3.png" alt="User" />
+              </div>
+              <div class="info">
+                <h5>David Fincher</h5>
+                <p>On Capterra</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="text">
+              <p>
+                “My experience with LeadCRM has been excellent. It has
+                streamlined my workflow, improved lead tracking, and made
+                follow-ups more efficient. The responsive customer support is a
+                big plus. Highly recommend it for reliable lead management!“
+              </p>
+              <div class="review">
+                <div class="icon">
+                  <img src="./assets/images/icons/play-store.svg" alt="User" />
+                </div>
+                <div class="star d-flex gap-1">
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M9.00054 1.50109L6.76054 6.24109L1.76054 7.00109C0.920537 7.08109 0.500537 8.34109 1.16054 9.00109L4.76054 12.6611L3.92054 17.9211C3.76054 18.8411 4.76054 19.5011 5.50054 19.0811L10.0005 16.7411L14.5005 19.0811C15.3405 19.5011 16.2605 18.8411 16.0805 17.9211L15.2605 12.6611L18.8405 9.00109C19.5005 8.34109 19.0805 7.16109 18.2605 7.00109L13.2605 6.24109L11.0005 1.50109C10.5805 0.661094 9.42054 0.661094 9.00054 1.50109Z"
+                      fill="#090F4E"
+                    />
+                  </svg>
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M9.00054 1.50109L6.76054 6.24109L1.76054 7.00109C0.920537 7.08109 0.500537 8.34109 1.16054 9.00109L4.76054 12.6611L3.92054 17.9211C3.76054 18.8411 4.76054 19.5011 5.50054 19.0811L10.0005 16.7411L14.5005 19.0811C15.3405 19.5011 16.2605 18.8411 16.0805 17.9211L15.2605 12.6611L18.8405 9.00109C19.5005 8.34109 19.0805 7.16109 18.2605 7.00109L13.2605 6.24109L11.0005 1.50109C10.5805 0.661094 9.42054 0.661094 9.00054 1.50109Z"
+                      fill="#090F4E"
+                    />
+                  </svg>
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M9.00054 1.50109L6.76054 6.24109L1.76054 7.00109C0.920537 7.08109 0.500537 8.34109 1.16054 9.00109L4.76054 12.6611L3.92054 17.9211C3.76054 18.8411 4.76054 19.5011 5.50054 19.0811L10.0005 16.7411L14.5005 19.0811C15.3405 19.5011 16.2605 18.8411 16.0805 17.9211L15.2605 12.6611L18.8405 9.00109C19.5005 8.34109 19.0805 7.16109 18.2605 7.00109L13.2605 6.24109L11.0005 1.50109C10.5805 0.661094 9.42054 0.661094 9.00054 1.50109Z"
+                      fill="#090F4E"
+                    />
+                  </svg>
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M9.00054 1.50109L6.76054 6.24109L1.76054 7.00109C0.920537 7.08109 0.500537 8.34109 1.16054 9.00109L4.76054 12.6611L3.92054 17.9211C3.76054 18.8411 4.76054 19.5011 5.50054 19.0811L10.0005 16.7411L14.5005 19.0811C15.3405 19.5011 16.2605 18.8411 16.0805 17.9211L15.2605 12.6611L18.8405 9.00109C19.5005 8.34109 19.0805 7.16109 18.2605 7.00109L13.2605 6.24109L11.0005 1.50109C10.5805 0.661094 9.42054 0.661094 9.00054 1.50109Z"
+                      fill="#090F4E"
+                    />
+                  </svg>
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M9.00054 1.50109L6.76054 6.24109L1.76054 7.00109C0.920537 7.08109 0.500537 8.34109 1.16054 9.00109L4.76054 12.6611L3.92054 17.9211C3.76054 18.8411 4.76054 19.5011 5.50054 19.0811L10.0005 16.7411L14.5005 19.0811C15.3405 19.5011 16.2605 18.8411 16.0805 17.9211L15.2605 12.6611L18.8405 9.00109C19.5005 8.34109 19.0805 7.16109 18.2605 7.00109L13.2605 6.24109L11.0005 1.50109C10.5805 0.661094 9.42054 0.661094 9.00054 1.50109Z"
+                      fill="#090F4E"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="user">
+              <div class="img">
+                <img src="./assets/images/testimonials/2.png" alt="User" />
+              </div>
+              <div class="info">
+                <h5>Lillian Williams</h5>
+                <p>On Capterra</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="text">
+              <p>
+                “Reliable Data Sync I’ve only had to refresh the extension a
+                couple of times. The multi-contact enrichment is still a huge
+                plus, and support is very responsive.“
+              </p>
+              <div class="review">
+                <div class="icon">
+                  <img src="./assets/images/icons/play-store.svg" alt="User" />
+                </div>
+                <div class="star d-flex gap-1">
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M9.00054 1.50109L6.76054 6.24109L1.76054 7.00109C0.920537 7.08109 0.500537 8.34109 1.16054 9.00109L4.76054 12.6611L3.92054 17.9211C3.76054 18.8411 4.76054 19.5011 5.50054 19.0811L10.0005 16.7411L14.5005 19.0811C15.3405 19.5011 16.2605 18.8411 16.0805 17.9211L15.2605 12.6611L18.8405 9.00109C19.5005 8.34109 19.0805 7.16109 18.2605 7.00109L13.2605 6.24109L11.0005 1.50109C10.5805 0.661094 9.42054 0.661094 9.00054 1.50109Z"
+                      fill="#090F4E"
+                    />
+                  </svg>
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M9.00054 1.50109L6.76054 6.24109L1.76054 7.00109C0.920537 7.08109 0.500537 8.34109 1.16054 9.00109L4.76054 12.6611L3.92054 17.9211C3.76054 18.8411 4.76054 19.5011 5.50054 19.0811L10.0005 16.7411L14.5005 19.0811C15.3405 19.5011 16.2605 18.8411 16.0805 17.9211L15.2605 12.6611L18.8405 9.00109C19.5005 8.34109 19.0805 7.16109 18.2605 7.00109L13.2605 6.24109L11.0005 1.50109C10.5805 0.661094 9.42054 0.661094 9.00054 1.50109Z"
+                      fill="#090F4E"
+                    />
+                  </svg>
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M9.00054 1.50109L6.76054 6.24109L1.76054 7.00109C0.920537 7.08109 0.500537 8.34109 1.16054 9.00109L4.76054 12.6611L3.92054 17.9211C3.76054 18.8411 4.76054 19.5011 5.50054 19.0811L10.0005 16.7411L14.5005 19.0811C15.3405 19.5011 16.2605 18.8411 16.0805 17.9211L15.2605 12.6611L18.8405 9.00109C19.5005 8.34109 19.0805 7.16109 18.2605 7.00109L13.2605 6.24109L11.0005 1.50109C10.5805 0.661094 9.42054 0.661094 9.00054 1.50109Z"
+                      fill="#090F4E"
+                    />
+                  </svg>
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M9.00054 1.50109L6.76054 6.24109L1.76054 7.00109C0.920537 7.08109 0.500537 8.34109 1.16054 9.00109L4.76054 12.6611L3.92054 17.9211C3.76054 18.8411 4.76054 19.5011 5.50054 19.0811L10.0005 16.7411L14.5005 19.0811C15.3405 19.5011 16.2605 18.8411 16.0805 17.9211L15.2605 12.6611L18.8405 9.00109C19.5005 8.34109 19.0805 7.16109 18.2605 7.00109L13.2605 6.24109L11.0005 1.50109C10.5805 0.661094 9.42054 0.661094 9.00054 1.50109Z"
+                      fill="#090F4E"
+                    />
+                  </svg>
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M9.00054 1.50109L6.76054 6.24109L1.76054 7.00109C0.920537 7.08109 0.500537 8.34109 1.16054 9.00109L4.76054 12.6611L3.92054 17.9211C3.76054 18.8411 4.76054 19.5011 5.50054 19.0811L10.0005 16.7411L14.5005 19.0811C15.3405 19.5011 16.2605 18.8411 16.0805 17.9211L15.2605 12.6611L18.8405 9.00109C19.5005 8.34109 19.0805 7.16109 18.2605 7.00109L13.2605 6.24109L11.0005 1.50109C10.5805 0.661094 9.42054 0.661094 9.00054 1.50109Z"
+                      fill="#090F4E"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="user">
+              <div class="img">
+                <img src="./assets/images/testimonials/3.png" alt="User" />
+              </div>
+              <div class="info">
+                <h5>Michael</h5>
+                <p>On Capterra</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="text">
+              <p>
+                “My experience with LeadCRM has been excellent. It has
+                streamlined my workflow, improved lead tracking, and made
+                follow-ups more efficient. The responsive customer support is a
+                big plus. Highly recommend it for reliable lead management!“
+              </p>
+              <div class="review">
+                <div class="icon">
+                  <img src="./assets/images/icons/play-store.svg" alt="User" />
+                </div>
+                <div class="star d-flex gap-1">
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M9.00054 1.50109L6.76054 6.24109L1.76054 7.00109C0.920537 7.08109 0.500537 8.34109 1.16054 9.00109L4.76054 12.6611L3.92054 17.9211C3.76054 18.8411 4.76054 19.5011 5.50054 19.0811L10.0005 16.7411L14.5005 19.0811C15.3405 19.5011 16.2605 18.8411 16.0805 17.9211L15.2605 12.6611L18.8405 9.00109C19.5005 8.34109 19.0805 7.16109 18.2605 7.00109L13.2605 6.24109L11.0005 1.50109C10.5805 0.661094 9.42054 0.661094 9.00054 1.50109Z"
+                      fill="#090F4E"
+                    />
+                  </svg>
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M9.00054 1.50109L6.76054 6.24109L1.76054 7.00109C0.920537 7.08109 0.500537 8.34109 1.16054 9.00109L4.76054 12.6611L3.92054 17.9211C3.76054 18.8411 4.76054 19.5011 5.50054 19.0811L10.0005 16.7411L14.5005 19.0811C15.3405 19.5011 16.2605 18.8411 16.0805 17.9211L15.2605 12.6611L18.8405 9.00109C19.5005 8.34109 19.0805 7.16109 18.2605 7.00109L13.2605 6.24109L11.0005 1.50109C10.5805 0.661094 9.42054 0.661094 9.00054 1.50109Z"
+                      fill="#090F4E"
+                    />
+                  </svg>
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M9.00054 1.50109L6.76054 6.24109L1.76054 7.00109C0.920537 7.08109 0.500537 8.34109 1.16054 9.00109L4.76054 12.6611L3.92054 17.9211C3.76054 18.8411 4.76054 19.5011 5.50054 19.0811L10.0005 16.7411L14.5005 19.0811C15.3405 19.5011 16.2605 18.8411 16.0805 17.9211L15.2605 12.6611L18.8405 9.00109C19.5005 8.34109 19.0805 7.16109 18.2605 7.00109L13.2605 6.24109L11.0005 1.50109C10.5805 0.661094 9.42054 0.661094 9.00054 1.50109Z"
+                      fill="#090F4E"
+                    />
+                  </svg>
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M9.00054 1.50109L6.76054 6.24109L1.76054 7.00109C0.920537 7.08109 0.500537 8.34109 1.16054 9.00109L4.76054 12.6611L3.92054 17.9211C3.76054 18.8411 4.76054 19.5011 5.50054 19.0811L10.0005 16.7411L14.5005 19.0811C15.3405 19.5011 16.2605 18.8411 16.0805 17.9211L15.2605 12.6611L18.8405 9.00109C19.5005 8.34109 19.0805 7.16109 18.2605 7.00109L13.2605 6.24109L11.0005 1.50109C10.5805 0.661094 9.42054 0.661094 9.00054 1.50109Z"
+                      fill="#090F4E"
+                    />
+                  </svg>
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M9.00054 1.50109L6.76054 6.24109L1.76054 7.00109C0.920537 7.08109 0.500537 8.34109 1.16054 9.00109L4.76054 12.6611L3.92054 17.9211C3.76054 18.8411 4.76054 19.5011 5.50054 19.0811L10.0005 16.7411L14.5005 19.0811C15.3405 19.5011 16.2605 18.8411 16.0805 17.9211L15.2605 12.6611L18.8405 9.00109C19.5005 8.34109 19.0805 7.16109 18.2605 7.00109L13.2605 6.24109L11.0005 1.50109C10.5805 0.661094 9.42054 0.661094 9.00054 1.50109Z"
+                      fill="#090F4E"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="user">
+              <div class="img">
+                <img src="./assets/images/testimonials/2.png" alt="User" />
+              </div>
+              <div class="info">
+                <h5>Lillian Williams</h5>
+                <p>On Capterra</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="text">
+              <p>
+                “Reliable Data Sync I’ve only had to refresh the extension a
+                couple of times. The multi-contact enrichment is still a huge
+                plus, and support is very responsive.“
+              </p>
+              <div class="review">
+                <div class="icon">
+                  <img src="./assets/images/icons/play-store.svg" alt="User" />
+                </div>
+                <div class="star d-flex gap-1">
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M9.00054 1.50109L6.76054 6.24109L1.76054 7.00109C0.920537 7.08109 0.500537 8.34109 1.16054 9.00109L4.76054 12.6611L3.92054 17.9211C3.76054 18.8411 4.76054 19.5011 5.50054 19.0811L10.0005 16.7411L14.5005 19.0811C15.3405 19.5011 16.2605 18.8411 16.0805 17.9211L15.2605 12.6611L18.8405 9.00109C19.5005 8.34109 19.0805 7.16109 18.2605 7.00109L13.2605 6.24109L11.0005 1.50109C10.5805 0.661094 9.42054 0.661094 9.00054 1.50109Z"
+                      fill="#090F4E"
+                    />
+                  </svg>
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M9.00054 1.50109L6.76054 6.24109L1.76054 7.00109C0.920537 7.08109 0.500537 8.34109 1.16054 9.00109L4.76054 12.6611L3.92054 17.9211C3.76054 18.8411 4.76054 19.5011 5.50054 19.0811L10.0005 16.7411L14.5005 19.0811C15.3405 19.5011 16.2605 18.8411 16.0805 17.9211L15.2605 12.6611L18.8405 9.00109C19.5005 8.34109 19.0805 7.16109 18.2605 7.00109L13.2605 6.24109L11.0005 1.50109C10.5805 0.661094 9.42054 0.661094 9.00054 1.50109Z"
+                      fill="#090F4E"
+                    />
+                  </svg>
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M9.00054 1.50109L6.76054 6.24109L1.76054 7.00109C0.920537 7.08109 0.500537 8.34109 1.16054 9.00109L4.76054 12.6611L3.92054 17.9211C3.76054 18.8411 4.76054 19.5011 5.50054 19.0811L10.0005 16.7411L14.5005 19.0811C15.3405 19.5011 16.2605 18.8411 16.0805 17.9211L15.2605 12.6611L18.8405 9.00109C19.5005 8.34109 19.0805 7.16109 18.2605 7.00109L13.2605 6.24109L11.0005 1.50109C10.5805 0.661094 9.42054 0.661094 9.00054 1.50109Z"
+                      fill="#090F4E"
+                    />
+                  </svg>
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M9.00054 1.50109L6.76054 6.24109L1.76054 7.00109C0.920537 7.08109 0.500537 8.34109 1.16054 9.00109L4.76054 12.6611L3.92054 17.9211C3.76054 18.8411 4.76054 19.5011 5.50054 19.0811L10.0005 16.7411L14.5005 19.0811C15.3405 19.5011 16.2605 18.8411 16.0805 17.9211L15.2605 12.6611L18.8405 9.00109C19.5005 8.34109 19.0805 7.16109 18.2605 7.00109L13.2605 6.24109L11.0005 1.50109C10.5805 0.661094 9.42054 0.661094 9.00054 1.50109Z"
+                      fill="#090F4E"
+                    />
+                  </svg>
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M9.00054 1.50109L6.76054 6.24109L1.76054 7.00109C0.920537 7.08109 0.500537 8.34109 1.16054 9.00109L4.76054 12.6611L3.92054 17.9211C3.76054 18.8411 4.76054 19.5011 5.50054 19.0811L10.0005 16.7411L14.5005 19.0811C15.3405 19.5011 16.2605 18.8411 16.0805 17.9211L15.2605 12.6611L18.8405 9.00109C19.5005 8.34109 19.0805 7.16109 18.2605 7.00109L13.2605 6.24109L11.0005 1.50109C10.5805 0.661094 9.42054 0.661094 9.00054 1.50109Z"
+                      fill="#090F4E"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="user">
+              <div class="img">
+                <img src="./assets/images/testimonials/3.png" alt="User" />
+              </div>
+              <div class="info">
+                <h5>Michael</h5>
+                <p>On Capterra</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Linkedin Sales -->
+    <section class="section linkedin-sales">
+      <div class="container-fluid">
+        <div class="text-center mb-5">
+          <h2 class="heading mb-2">Complete LinkedIn Sales Solutions</h2>
+          <p class="sub-heading">
+            Everything you need for professional LinkedIn prospecting
+          </p>
+        </div>
+        <div class="robo">
+          <img src="./assets/images/icons/robo.png" alt="Icon" />
+        </div>
+        <ul class="nav nav-tabs mb-5" id="myTab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link active"
+              id="crm-data"
+              data-bs-toggle="tab"
+              data-bs-target="#crm-data-pane"
+              type="button"
+              role="tab"
+              aria-controls="crm-data-pane"
+              aria-selected="true"
+            >
+              <img
+                src="./assets/images/icons/crm-data-en.png"
+                alt="CRM Data Enrichment"
+              />
+              CRM Data Enrichment
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="crm-data-sync"
+              data-bs-toggle="tab"
+              data-bs-target="#crm-data-sync-pane"
+              type="button"
+              role="tab"
+              aria-controls="crm-data-sync-pane"
+              aria-selected="false"
+            >
+              <img
+                src="./assets/images/icons/crm-data.png"
+                alt="CRM Data Enrichment"
+              />
+              CRM Data Sync
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="bulk-export-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#bulk-export-tab-pane"
+              type="button"
+              role="tab"
+              aria-controls="bulk-export-tab-pane"
+              aria-selected="false"
+            >
+              <img
+                src="./assets/images/icons/bulk.png"
+                alt="CRM Data Enrichment"
+              />
+              Bulk Export & Enrichment
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="ai-productivity"
+              data-bs-toggle="tab"
+              data-bs-target="#ai-productivity-pane"
+              type="button"
+              role="tab"
+              aria-controls="ai-productivity-pane"
+              aria-selected="false"
+            >
+              <img
+                src="./assets/images/icons/ai-pr.png"
+                alt="CRM Data Enrichment"
+              />
+              AI Productivity
+            </button>
+          </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+          <div
+            class="tab-pane fade show active"
+            id="crm-data-pane"
+            role="tabpanel"
+            aria-labelledby="crm-data"
+            tabindex="0"
+          >
+            <h5>
+              It’s hard to find the accurate contact data for every prospects by
+              <span>Incomplete Data</span>
+            </h5>
+            <div class="row g-3">
+              <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="card cd-1">
+                  <h6>
+                    Here is how <span>LeadCRM tackles</span> that situation.
+                  </h6>
+                  <a href="#">
+                    Try LeadCRM Data Enrichment
+                    <svg
+                      width="8"
+                      height="13"
+                      viewBox="0 0 8 13"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M0.33471 0.339612C0.12033 0.555271 0 0.847001 0 1.15109C0 1.45517 0.12033 1.7469 0.33471 1.96256L4.40935 6.09475L0.33471 10.1694C0.12033 10.3851 0 10.6768 0 10.9809C0 11.285 0.12033 11.5767 0.33471 11.7923C0.441713 11.9002 0.569018 11.9859 0.709282 12.0443C0.849545 12.1027 0.999991 12.1328 1.15194 12.1328C1.30389 12.1328 1.45434 12.1027 1.5946 12.0443C1.73486 11.9859 1.86217 11.9002 1.96917 11.7923L6.84953 6.91198C6.95741 6.80498 7.04304 6.67767 7.10148 6.53741C7.15991 6.39715 7.19 6.2467 7.19 6.09475C7.19 5.9428 7.15991 5.79236 7.10148 5.65209C7.04304 5.51183 6.95741 5.38452 6.84953 5.27752L1.96917 0.339612C1.86217 0.231728 1.73486 0.146098 1.5946 0.0876617C1.45434 0.0292253 1.30389 -0.000861168 1.15194 -0.000861168C0.999991 -0.000861168 0.849545 0.0292253 0.709282 0.0876617C0.569018 0.146098 0.441713 0.231728 0.33471 0.339612Z"
+                        fill="#097737"
+                      />
+                    </svg>
+                  </a>
+                  <img
+                    src="./assets/images/linkedin-sales/try-leadcrm.png"
+                    alt="Data Enrichment"
+                  />
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="card cd-2">
+                  <p>
+                    If it does not works for you ! try our
+                    <a href="#!">
+                      Advanced Waterfall Enrichment
+                      <svg
+                        width="8"
+                        height="13"
+                        viewBox="0 0 8 13"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M0.33471 0.339612C0.12033 0.555271 0 0.847001 0 1.15109C0 1.45517 0.12033 1.7469 0.33471 1.96256L4.40935 6.09475L0.33471 10.1694C0.12033 10.3851 0 10.6768 0 10.9809C0 11.285 0.12033 11.5767 0.33471 11.7923C0.441713 11.9002 0.569018 11.9859 0.709282 12.0443C0.849545 12.1027 0.999991 12.1328 1.15194 12.1328C1.30389 12.1328 1.45434 12.1027 1.5946 12.0443C1.73486 11.9859 1.86217 11.9002 1.96917 11.7923L6.84953 6.91198C6.95741 6.80498 7.04304 6.67767 7.10148 6.53741C7.15991 6.39715 7.19 6.2467 7.19 6.09475C7.19 5.9428 7.15991 5.79236 7.10148 5.65209C7.04304 5.51183 6.95741 5.38452 6.84953 5.27752L1.96917 0.339612C1.86217 0.231728 1.73486 0.146098 1.5946 0.0876617C1.45434 0.0292253 1.30389 -0.000861168 1.15194 -0.000861168C0.999991 -0.000861168 0.849545 0.0292253 0.709282 0.0876617C0.569018 0.146098 0.441713 0.231728 0.33471 0.339612Z"
+                          fill="#097737"
+                        />
+                      </svg>
+                    </a>
+                  </p>
+                  <img
+                    src="./assets/images/linkedin-sales/try-advance.webp"
+                    alt="Waterfall Enrichment"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="crm-data-sync-pane"
+            role="tabpanel"
+            aria-labelledby="crm-data-sync"
+            tabindex="0"
+          >
+            <h5>
+              It’s hard to find the accurate contact data for every prospects by
+              <span>Incomplete Data</span>
+            </h5>
+            <div class="row g-3">
+              <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="card cd-1">
+                  <h6>
+                    Here is how <span>LeadCRM tackles</span> that situation.
+                  </h6>
+                  <a href="#">
+                    Try LeadCRM Data Enrichment
+                    <svg
+                      width="8"
+                      height="13"
+                      viewBox="0 0 8 13"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M0.33471 0.339612C0.12033 0.555271 0 0.847001 0 1.15109C0 1.45517 0.12033 1.7469 0.33471 1.96256L4.40935 6.09475L0.33471 10.1694C0.12033 10.3851 0 10.6768 0 10.9809C0 11.285 0.12033 11.5767 0.33471 11.7923C0.441713 11.9002 0.569018 11.9859 0.709282 12.0443C0.849545 12.1027 0.999991 12.1328 1.15194 12.1328C1.30389 12.1328 1.45434 12.1027 1.5946 12.0443C1.73486 11.9859 1.86217 11.9002 1.96917 11.7923L6.84953 6.91198C6.95741 6.80498 7.04304 6.67767 7.10148 6.53741C7.15991 6.39715 7.19 6.2467 7.19 6.09475C7.19 5.9428 7.15991 5.79236 7.10148 5.65209C7.04304 5.51183 6.95741 5.38452 6.84953 5.27752L1.96917 0.339612C1.86217 0.231728 1.73486 0.146098 1.5946 0.0876617C1.45434 0.0292253 1.30389 -0.000861168 1.15194 -0.000861168C0.999991 -0.000861168 0.849545 0.0292253 0.709282 0.0876617C0.569018 0.146098 0.441713 0.231728 0.33471 0.339612Z"
+                        fill="#097737"
+                      />
+                    </svg>
+                  </a>
+                  <img
+                    src="./assets/images/linkedin-sales/try-leadcrm.png"
+                    alt="Data Enrichment"
+                  />
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="card cd-2">
+                  <p>
+                    If it does not works for you ! try our
+                    <a href="#!">
+                      Advanced Waterfall Enrichment
+                      <svg
+                        width="8"
+                        height="13"
+                        viewBox="0 0 8 13"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M0.33471 0.339612C0.12033 0.555271 0 0.847001 0 1.15109C0 1.45517 0.12033 1.7469 0.33471 1.96256L4.40935 6.09475L0.33471 10.1694C0.12033 10.3851 0 10.6768 0 10.9809C0 11.285 0.12033 11.5767 0.33471 11.7923C0.441713 11.9002 0.569018 11.9859 0.709282 12.0443C0.849545 12.1027 0.999991 12.1328 1.15194 12.1328C1.30389 12.1328 1.45434 12.1027 1.5946 12.0443C1.73486 11.9859 1.86217 11.9002 1.96917 11.7923L6.84953 6.91198C6.95741 6.80498 7.04304 6.67767 7.10148 6.53741C7.15991 6.39715 7.19 6.2467 7.19 6.09475C7.19 5.9428 7.15991 5.79236 7.10148 5.65209C7.04304 5.51183 6.95741 5.38452 6.84953 5.27752L1.96917 0.339612C1.86217 0.231728 1.73486 0.146098 1.5946 0.0876617C1.45434 0.0292253 1.30389 -0.000861168 1.15194 -0.000861168C0.999991 -0.000861168 0.849545 0.0292253 0.709282 0.0876617C0.569018 0.146098 0.441713 0.231728 0.33471 0.339612Z"
+                          fill="#097737"
+                        />
+                      </svg>
+                    </a>
+                  </p>
+                  <img
+                    src="./assets/images/linkedin-sales/try-advance.webp"
+                    alt="Waterfall Enrichment"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="bulk-export-tab-pane"
+            role="tabpanel"
+            aria-labelledby="bulk-export-tab"
+            tabindex="0"
+          >
+            <h5>
+              It’s hard to find the accurate contact data for every prospects by
+              <span>Incomplete Data</span>
+            </h5>
+            <div class="row g-3">
+              <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="card cd-1">
+                  <h6>
+                    Here is how <span>LeadCRM tackles</span> that situation.
+                  </h6>
+                  <a href="#">
+                    Try LeadCRM Data Enrichment
+                    <svg
+                      width="8"
+                      height="13"
+                      viewBox="0 0 8 13"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M0.33471 0.339612C0.12033 0.555271 0 0.847001 0 1.15109C0 1.45517 0.12033 1.7469 0.33471 1.96256L4.40935 6.09475L0.33471 10.1694C0.12033 10.3851 0 10.6768 0 10.9809C0 11.285 0.12033 11.5767 0.33471 11.7923C0.441713 11.9002 0.569018 11.9859 0.709282 12.0443C0.849545 12.1027 0.999991 12.1328 1.15194 12.1328C1.30389 12.1328 1.45434 12.1027 1.5946 12.0443C1.73486 11.9859 1.86217 11.9002 1.96917 11.7923L6.84953 6.91198C6.95741 6.80498 7.04304 6.67767 7.10148 6.53741C7.15991 6.39715 7.19 6.2467 7.19 6.09475C7.19 5.9428 7.15991 5.79236 7.10148 5.65209C7.04304 5.51183 6.95741 5.38452 6.84953 5.27752L1.96917 0.339612C1.86217 0.231728 1.73486 0.146098 1.5946 0.0876617C1.45434 0.0292253 1.30389 -0.000861168 1.15194 -0.000861168C0.999991 -0.000861168 0.849545 0.0292253 0.709282 0.0876617C0.569018 0.146098 0.441713 0.231728 0.33471 0.339612Z"
+                        fill="#097737"
+                      />
+                    </svg>
+                  </a>
+                  <img
+                    src="./assets/images/linkedin-sales/try-leadcrm.png"
+                    alt="Data Enrichment"
+                  />
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="card cd-2">
+                  <p>
+                    If it does not works for you ! try our
+                    <a href="#!">
+                      Advanced Waterfall Enrichment
+                      <svg
+                        width="8"
+                        height="13"
+                        viewBox="0 0 8 13"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M0.33471 0.339612C0.12033 0.555271 0 0.847001 0 1.15109C0 1.45517 0.12033 1.7469 0.33471 1.96256L4.40935 6.09475L0.33471 10.1694C0.12033 10.3851 0 10.6768 0 10.9809C0 11.285 0.12033 11.5767 0.33471 11.7923C0.441713 11.9002 0.569018 11.9859 0.709282 12.0443C0.849545 12.1027 0.999991 12.1328 1.15194 12.1328C1.30389 12.1328 1.45434 12.1027 1.5946 12.0443C1.73486 11.9859 1.86217 11.9002 1.96917 11.7923L6.84953 6.91198C6.95741 6.80498 7.04304 6.67767 7.10148 6.53741C7.15991 6.39715 7.19 6.2467 7.19 6.09475C7.19 5.9428 7.15991 5.79236 7.10148 5.65209C7.04304 5.51183 6.95741 5.38452 6.84953 5.27752L1.96917 0.339612C1.86217 0.231728 1.73486 0.146098 1.5946 0.0876617C1.45434 0.0292253 1.30389 -0.000861168 1.15194 -0.000861168C0.999991 -0.000861168 0.849545 0.0292253 0.709282 0.0876617C0.569018 0.146098 0.441713 0.231728 0.33471 0.339612Z"
+                          fill="#097737"
+                        />
+                      </svg>
+                    </a>
+                  </p>
+                  <img
+                    src="./assets/images/linkedin-sales/try-advance.webp"
+                    alt="Waterfall Enrichment"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="ai-productivity-pane"
+            role="tabpanel"
+            aria-labelledby="ai-productivity"
+            tabindex="0"
+          >
+            <h5>
+              It’s hard to find the accurate contact data for every prospects by
+              <span>Incomplete Data</span>
+            </h5>
+            <div class="row g-3">
+              <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="card cd-1">
+                  <h6>
+                    Here is how <span>LeadCRM tackles</span> that situation.
+                  </h6>
+                  <a href="#">
+                    Try LeadCRM Data Enrichment
+                    <svg
+                      width="8"
+                      height="13"
+                      viewBox="0 0 8 13"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M0.33471 0.339612C0.12033 0.555271 0 0.847001 0 1.15109C0 1.45517 0.12033 1.7469 0.33471 1.96256L4.40935 6.09475L0.33471 10.1694C0.12033 10.3851 0 10.6768 0 10.9809C0 11.285 0.12033 11.5767 0.33471 11.7923C0.441713 11.9002 0.569018 11.9859 0.709282 12.0443C0.849545 12.1027 0.999991 12.1328 1.15194 12.1328C1.30389 12.1328 1.45434 12.1027 1.5946 12.0443C1.73486 11.9859 1.86217 11.9002 1.96917 11.7923L6.84953 6.91198C6.95741 6.80498 7.04304 6.67767 7.10148 6.53741C7.15991 6.39715 7.19 6.2467 7.19 6.09475C7.19 5.9428 7.15991 5.79236 7.10148 5.65209C7.04304 5.51183 6.95741 5.38452 6.84953 5.27752L1.96917 0.339612C1.86217 0.231728 1.73486 0.146098 1.5946 0.0876617C1.45434 0.0292253 1.30389 -0.000861168 1.15194 -0.000861168C0.999991 -0.000861168 0.849545 0.0292253 0.709282 0.0876617C0.569018 0.146098 0.441713 0.231728 0.33471 0.339612Z"
+                        fill="#097737"
+                      />
+                    </svg>
+                  </a>
+                  <img
+                    src="./assets/images/linkedin-sales/try-leadcrm.png"
+                    alt="Data Enrichment"
+                  />
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="card cd-2">
+                  <p>
+                    If it does not works for you ! try our
+                    <a href="#!">
+                      Advanced Waterfall Enrichment
+                      <svg
+                        width="8"
+                        height="13"
+                        viewBox="0 0 8 13"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M0.33471 0.339612C0.12033 0.555271 0 0.847001 0 1.15109C0 1.45517 0.12033 1.7469 0.33471 1.96256L4.40935 6.09475L0.33471 10.1694C0.12033 10.3851 0 10.6768 0 10.9809C0 11.285 0.12033 11.5767 0.33471 11.7923C0.441713 11.9002 0.569018 11.9859 0.709282 12.0443C0.849545 12.1027 0.999991 12.1328 1.15194 12.1328C1.30389 12.1328 1.45434 12.1027 1.5946 12.0443C1.73486 11.9859 1.86217 11.9002 1.96917 11.7923L6.84953 6.91198C6.95741 6.80498 7.04304 6.67767 7.10148 6.53741C7.15991 6.39715 7.19 6.2467 7.19 6.09475C7.19 5.9428 7.15991 5.79236 7.10148 5.65209C7.04304 5.51183 6.95741 5.38452 6.84953 5.27752L1.96917 0.339612C1.86217 0.231728 1.73486 0.146098 1.5946 0.0876617C1.45434 0.0292253 1.30389 -0.000861168 1.15194 -0.000861168C0.999991 -0.000861168 0.849545 0.0292253 0.709282 0.0876617C0.569018 0.146098 0.441713 0.231728 0.33471 0.339612Z"
+                          fill="#097737"
+                        />
+                      </svg>
+                    </a>
+                  </p>
+                  <img
+                    src="./assets/images/linkedin-sales/try-advance.webp"
+                    alt="Waterfall Enrichment"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Supported LeadCRM -->
+    <section class="section supported-leadcrm">
+      <div class="container-fluid">
+        <div class="heading-dv text-center mb-5 m-auto">
+          <h2 class="heading">
+            <div class="sup-icn">
+              <img src="./assets/images/icons/support-ic.png" alt="Icon" />
+            </div>
+            Our Supported LeadCRM
+          </h2>
+          <p class="sub-heading">
+            LeadCRM provides Native Integrations with popular CRM tools to make
+            the most out of your LinkedIn prospecting. We don’t want you to miss
+            any revenue opportunity on the internet!
+          </p>
+        </div>
+        <div class="chat">
+          <img src="./assets/images/icons/chat-ic.png" alt="Chat Icon" />
+        </div>
+        <div class="image">
+          <img
+            src="./assets/images/leadcrm-supported.png"
+            alt="LeadCRM Supported"
+          />
+        </div>
+        <div class="d-flex justify-content-center mt-2">
+          <a href="#!" class="button">Lets Integrate your CRM Now!</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Join Professionals -->
+    <section class="section join-professionals">
+      <div class="container-fluid">
+        <h2 class="heading">Join Thousands of Professionals Using LeadCRM</h2>
+        <div class="image-text">
+          <h3 class="text-light">
+            Your LinkedIn Powerhouse for Smarter Lead Management
+          </h3>
+        </div>
+        <div class="d-flex justify-content-center">
+          <a href="#!" class="button gap-2">
+            Get Started Today
+            <svg
+              width="20"
+              height="18"
+              viewBox="0 0 20 18"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M11 2L18 9M18 9L11 16M18 9H2"
+                stroke="#1A1A1A"
+                stroke-width="2.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blank space -->
+    <section class="section"></section>
+
+    <!-- Floating Section-->
+    <section class="floating-section">
+      <div class="card">
+        <div class="d-flex align-items-center gap-1">
+          <div class="pl">
+            <img src="./assets/images/icons/people.png" alt="Peoples" />
+          </div>
+          <h4>Join with our Thousands of professionals Now !</h4>
+        </div>
+        <div>
+          <a href="#!" class="button">Get a Free Trial Now!</a>
+        </div>
+      </div>
+      <div class="files-in d-flex justify-content-between m-auto">
+        <div class="file d-flex">
+          <img src="./assets/images/icons/files.svg" alt="Files" />
+          <p><b class="text-dark">No Credit Card</b> Required</p>
+        </div>
+        <div class="file d-flex">
+          <img src="./assets/images/icons/watch.svg" alt="Files" />
+          <p><b class="text-dark">14 Days Free</b> Trial</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="section footer pb-0">
+      <div class="container-fluid">
+        <div class="row g-3">
+          <div class="col-lg-3 col-md-12 col-sm-12">
+            <div class="logo-info">
+              <div class="logo">
+                <img src="./assets/images/logo.png" alt="Lead CRM" />
+              </div>
+              <p class="text-dark">
+                LeadCRM is LinkedIn integration tool for your CRM.
+              </p>
+              <div class="social mb-3 mb-lg-0">
+                <a href="#!">
+                  <img
+                    src="./assets/images/icons/facebook.png"
+                    alt="Facebook"
+                  />
+                </a>
+                <a href="#!">
+                  <img src="./assets/images/icons/x.png" alt="X" />
+                </a>
+                <a href="#!">
+                  <img
+                    src="./assets/images/icons/linked-in.png"
+                    alt="linked-in"
+                  />
+                </a>
+                <a href="#!">
+                  <img src="./assets/images/icons/insta.png" alt="Instagram" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6 col-sm-12">
+            <h4>Integrations</h4>
+            <a href="#!" class="link">HubSpot</a>
+            <a href="#!" class="link">Salesforce</a>
+            <a href="#!" class="link">Pipedrive</a>
+            <a href="#!" class="link">Close.io <span>Coming Soon</span></a>
+            <a href="#!" class="link">Insightly <span>Coming Soon</span></a>
+          </div>
+          <div class="col-lg-2 col-md-6 col-sm-12">
+            <h4>Alternative</h4>
+            <a href="#!" class="link">Surfe VS LeadCRM</a>
+            <a href="#!" class="link">Linkmatch Alternative</a>
+          </div>
+          <div class="col-lg-2 col-md-6 col-sm-12">
+            <h4>Legal</h4>
+            <a href="#!" class="link">Privacy Policy</a>
+            <a href="#!" class="link">Terms of Use</a>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <h4>Contact Us</h4>
+            <a href="#!" class="link">
+              <img src="./assets/images/icons/support.png" alt="Support" />
+              support@leadcrm.io
+            </a>
+            <a href="#!" class="link">
+              <img src="./assets/images/icons/phone.png" alt="Support" />
+              +1 231-538-7466
+            </a>
+            <a href="#!" class="link">
+              <img src="./assets/images/icons/help-center.png" alt="Support" />
+              Help Center
+            </a>
+            <div class="d-flex justify-content-end">
+              <a href="#!" class="button">
+                <!-- <div class="content"> -->
+                <div class="text-in text-light">
+                  <span>Available in</span>
+                  <h5>Chrome</h5>
+                </div>
+                <div class="icon-ch bg-light">
+                  <img src="./assets/images/icons/chrome.svg" alt="" />
+                </div>
+                <!-- </div> -->
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">
+          <p class="cp-para">
+            Disclaimer : LeadCRM is not endorsed or certified by LinkedIn. All
+            LinkedIn(tm) logos and trademarks displayed on this tool are
+            property of LinkedIn. LeadCRM is distributed AS IS. Your use of
+            LeadCRM is at your own risk.
+          </p>
+          <p>Copyright © 2025 <a href="#">LeadCRM</a>. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./assets/js/owl.carousel.min.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/app.js"></script>
+  </body>
+</html>
