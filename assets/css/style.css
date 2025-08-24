@@ -869,11 +869,13 @@
   visibility: hidden;
   transition: 0.5s all ease;
 }
+
 .floating-section.show {
   opacity: 1;
   visibility: visible;
   transform: translate(-50%, -10px);
 }
+
 .floating-section .card {
   background: #ffeefe;
   display: flex;
@@ -883,23 +885,32 @@
   border: 0;
   padding: 0.7rem;
 }
+
 .floating-section .card h4 {
   color: var(--dark);
   font-family: var(--sans-serif-alt);
   font-size: 1.1rem;
   font-weight: 600;
 }
+
 .floating-section .card .pl {
   width: 5rem;
 }
+
 .floating-section .file {
   display: flex;
   align-items: center;
   gap: 0.4rem;
 }
+
+.floating-section .file p {
+  font-family: var(--sans-serif-alt);
+}
+
 .floating-section .file img {
   width: 1.7rem;
 }
+
 .floating-section .files-in {
   width: 57%;
   padding-top: 1rem;
