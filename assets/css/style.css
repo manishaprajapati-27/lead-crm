@@ -1081,9 +1081,6 @@
     display: block;
   }
 
-  /* .header .navbar .dropdown-menu.show {
-    transform: translateY(0px);
-  } */
   .header .navbar .navbar-nav .dropdown:hover .dropdown-menu {
     opacity: 1;
     visibility: visible;
@@ -1200,6 +1197,12 @@
   }
   .supported-leadcrm .chat {
     width: 7rem;
+  }
+
+  .floating-section {
+    opacity: 0;
+    visibility: hidden;
+    display: none;
   }
 }
 
