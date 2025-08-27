@@ -1204,6 +1204,13 @@
     visibility: hidden;
     display: none;
   }
+  .linkedin-sales .nav-tabs {
+    border: 0;
+  }
+  .linkedin-sales .nav-tabs .nav-link {
+    border: 0;
+    border-bottom: 0.18rem solid #ededed;
+  }
 }
 
 @media (max-width: 676px) {
@@ -1244,14 +1251,20 @@
     margin-bottom: 50px;
   }
   .join-professionals .image-text h3 {
-    font-size: 0.85rem;
+    /* font-size: 0.85rem;
     text-align: center;
-    padding-top: 0.9rem;
+    padding: 0 0.85rem;
+    padding-top: 0.9rem; */
+    /* font-weight: 600; */
+    font-size: 0.81rem;
+    text-align: center;
+    padding: 0 0.85rem;
+    padding-top: 0.5rem;
     font-weight: 600;
   }
   .join-professionals .image-text {
     background-size: contain;
-    min-height: 10rem;
+    min-height: 9rem;
   }
   .supported-leadcrm .heading-dv .heading .sup-icn {
     position: absolute;
