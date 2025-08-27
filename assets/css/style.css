@@ -302,6 +302,7 @@
 
 .hero .text .buttons .button:nth-child(1) {
   background: #373737;
+  border-color: #373737;
   padding: 0.7rem 1.1rem;
 }
 
@@ -1268,5 +1269,13 @@
   }
   .supported-leadcrm .chat {
     width: 6rem;
+  }
+  .linkedin-challengers .card .text .item h5,
+  .linkedin-challengers .card.cd-2 .text h4 {
+    flex-direction: column;
+  }
+  .linkedin-challengers .card .text .item h5 span {
+    width: 55%;
+    text-align: center;
   }
 }
